@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css');
+/*estilo body*/
+html,body
+{
+    font-family: 'Poppins' !important;
+    font-size: 15px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+
+a 
+{
+    text-decoration: none;
+    color: rgba(34,54,69,.7) !important;
+    font-weight: 900;
+}
+
+a:hover
+{
+    color: tomato !important;
+}
+/*Estilo boton*/
+.btn-sm:hover
+{
+    color: tomato !important;
+    background-position: 0 -15px;
+}
+
+.btn-sm
+{
+    font-family: 'Poppins';
+    font-weight: bolder !important;    
+}
+.btn-outline-success
+{
+    color: rgba(34,54,69,.7) !important;
+    border-color: rgba(34,54,69,.7) !important;
+
+}
+.btn-outline-success:hover
+{
+    color: white !important;
+    background-color: tomato !important;
+    border: tomato !important;
+}
+/*Logo*/
+.navbar
+{
+    background: white !important;
+    padding: 3rem 2rem;
+    height: 0rem;
+    min-height: 12vh;
+}
+.navbar .nav-brand a
+{
+    padding: 1rem 0;
+    display: block;
+    text-decoration: none;
+}
+.navbar-brand
+{
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem !important;
+    color: tomato !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link
+{
+    padding: 2rem 1.2rem;
+    font-size: 1.5rem;
+    position: relative;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover
+{
+    border-top: tomato !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link:active
+{
+    border-top: tomato !important;
+    color: tomato !important;
+}
+/*Footer*/
+footer
+{
+    font-weight: bold;
+}
+
+/*Nosotros*/
+.row{
+	width: auto;
+	margin: auto;
+}
+h1{
+	text-align: center;
+	font-weight: bold;
+}
+
+p{
+	font-weight: bold;
+}
+
+
+/*carousel*/
+.carousel-inner img {
+    width: 100%;
+    max-height: 818px;
+}
+
+.carousel-inner{
+    height: 818px;
+}
+/***********/
+/*Fin pagina principal*/
+
+/***********/
+/*Pagina Artistas cards*/
+.container
+{
+    margin-top: 110px !important;
+}
+
+.card
+{
+    border: none !important;
+    outline: none;
+    background-color: transparent !important;
+    border-radius: 20px;
+}
+
+.card:hover
+{
+    transform: translateY(-15px);
+    transition: transform .3s;
+}
+
+.text1
+{
+    font-weight: bold;
+}
+
+.info
+{
+    line-height: 17px;
+}
+
+.star
+{
+    color: #fbc02d;
+}
+
+/*btn card 1*/
+.pintura1-btn
+{
+    font-weight: bold;
+    background: tomato;
+}
+.cost span
+{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+#link
+{
+    text-decoration: none;
+}
+#link:hover
+{
+    color: black !important;
+}
+/*btn card 1*/
+
+/*btn card 2*/
+.pintura2-btn
+{
+    font-weight: bold;
+    background: tomato;
+}
+/*btn card 2*/
+
+/*btn card 3*/
+.pintura3-btn
+{
+    font-weight: bold;
+    background: tomato;
+}
+/*btn card 3*/
+
+/*btn card 4*/
+.pintura4-btn
+{
+    font-weight: bold;
+    background: tomato;
+}
+/*btn card 4*/
+
+/*btn card 5*/
+.pintura5-btn
+{
+    font-weight: bold;
+    background: tomato;
+}
+/*btn card 5*/
+
+/*btn card 6*/
+.pintura6-btn
+{
+    font-weight: bolder;
+    background: tomato;
+}
+/*btn card 6*/
+
+/*css para todas las cards*/
+.pintura1-btn:hover, .pintura2-btn:hover, .pintura3-btn:hover, .pintura4-btn:hover, .pintura5-btn:hover, .pintura6-btn:hover
+{
+    opacity: .8;
+} 
+
+.cursor
+{
+    cursor: pointer;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+/*css para todas las cards*/
+
+/*Pagina Artistas cards*/
+/***********/
+

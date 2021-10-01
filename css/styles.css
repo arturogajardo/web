@@ -1,0 +1,94 @@
+body{
+    background: url(/img/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.main-section{
+    margin:0 auto;
+    margin-top:25%;
+    padding: 0;
+}
+
+.modal-content{
+    background-color: #3b4652;
+    opacity: .85;
+    padding: 0 20px;
+    box-shadow: 0px 0px 3px #848484;
+}
+.user-image{
+    margin-top: -50px;
+    margin-bottom: 35px;
+}
+
+h1{
+    text-align: center;
+    margin-top: -50px;
+    color: aliceblue;
+}
+
+.user-img img{
+    width: 100xp;
+    height: 100px;
+    box-shadow: 0px 0px 3px #848484;
+    border-radius: 50%;
+}
+
+.form-group input{
+    height: 42px;
+    font-size: 18px;
+    border:0;
+    padding-left: 54px;
+    border-radius: 5px;
+}
+
+/*Inicio Estilo para iconos de los campos*/
+.form-group::before{
+    font-family: "Font Awesome\ 5 Free";
+    position: absolute;
+    left: 28px;
+    font-size: 22px;
+    padding-top:4px;
+}
+
+.form-group#user-group::before{
+    content: "\f007";
+}
+
+.form-group#password-group::before{
+    content: "\f023";
+}
+
+.form-group#email-group::before{
+    content: "\f0e0";
+}
+
+/*Final Estilo para iconos de los campos*/
+
+.btn-success{
+    margin-top: 20px;
+}
+
+.forgot{
+    padding: 5px 0;
+}
+
+.iniciarses{
+    color: aliceblue !important;
+}
+
+
+.account{
+    color: aliceblue !important;
+}
+
+
+
+
+/*Footer*/
+footer
+{
+    font-weight: bold;
+}
+
+
+
