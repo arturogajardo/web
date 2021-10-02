@@ -11,6 +11,9 @@ html,body
     margin: 0;
     top: 0;
     left: 0;
+    margin: 0 0 100px; /* bottom = footer height */
+    position: relative;
+    min-height: 100%;
 }
 
 a 
@@ -53,7 +56,7 @@ a:hover
 {
     background: white !important;
     padding: 3rem 2rem;
-    height: 0rem;
+    min-height: 0rem;
     min-height: 12vh;
 }
 .navbar .nav-brand a
@@ -83,10 +86,42 @@ a:hover
     border-top: tomato !important;
     color: tomato !important;
 }
+.navbar-toggler
+{
+    background-color: tomato !important;
+    border: none ;
+    padding: 10px 6px !important;
+    outline: none ;
+}
+.navbar-toggler span
+{
+    display: block ;
+    width: 22px ;
+    height: 2px;
+    border: 1px ;
+    background: white ;
+    background-color: white ;
+}
+.navbar-toggler span + span
+{
+    margin-top: 4px ;
+    width: 18px ;
+    margin-left: 4px ; 
+}
+.navbar-toggler span + span + span
+{
+    width: 10px ;
+    margin-left: 4px ;
+}
 /*Footer*/
 footer
 {
     font-weight: bold;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0px;
+    width: 100%;
 }
 
 /*Nosotros*/
@@ -107,11 +142,19 @@ p{
 /*carousel*/
 .carousel-inner img {
     width: 100%;
-    max-height: 818px;
+    max-height: 500px;
 }
-
 .carousel-inner{
-    height: 818px;
+    max-height: 500px;
+    width: 500px;
+}
+#titulo-video{
+    margin-bottom: 20px;
+}
+#link-yt{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: x-large;
 }
 /***********/
 /*Fin pagina principal*/
@@ -231,3 +274,10 @@ p{
 /*Pagina Artistas cards*/
 /***********/
 
+#form{
+    font-weight: 700;
+}
+#img-nosotros{
+    border-radius: 50%;
+    width: 300px;
+}
